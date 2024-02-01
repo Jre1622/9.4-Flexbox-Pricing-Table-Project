@@ -13,6 +13,7 @@ body {
 
 /* 3x smaller tiles with gray background plans */
 .pricing-plan {
+	flex: 1;
 	padding: 5px;
 	border-radius: 10px;
 	background-color: #a8dadc;
@@ -52,7 +53,7 @@ body {
 /* Smaller Screens */
 @media (max-width: 1250px) {
 	body {
-		background-color: red;
+		background-color: rgb(213, 173, 173);
 	}
 	.pricing-container {
 		display: flex;
