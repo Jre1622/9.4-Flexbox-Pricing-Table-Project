@@ -19,7 +19,7 @@ body {
 .pricing-plan {
 	padding: 5px;
 	border-radius: 10px;
-	background-color: lightgray;
+	background-color: #a8dadc;
 }
 
 /* Title Text and Price of Plans */
@@ -37,4 +37,18 @@ body {
 .plan-button {
 	box-shadow: 0px 0px 10px rgba(1, 0, 0, 0.16);
 	border-radius: 5px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0.25rem;
+}
+
+/* The boxes with checkmarks - each one has three */
+.plan-features {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px;
+	gap: 0.5rem;
+	list-style: none;
 }
