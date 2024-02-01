@@ -1,0 +1,40 @@
+body {
+	font-family: "Sono", sans-serif;
+}
+
+/* Hint: What can you do with a media query and flexbox? */
+@media (max-width: 1250px) {
+}
+
+/* Large div containing whole screen */
+.pricing-container {
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 20px;
+}
+
+/* 3x smaller tiles with gray background plans */
+.pricing-plan {
+	padding: 5px;
+	border-radius: 10px;
+	background-color: lightgray;
+}
+
+/* Title Text and Price of Plans */
+.plan-title {
+	font-weight: bold;
+	text-align: center;
+}
+.plan-price {
+	text-align: center;
+	font-size: 2rem;
+	font-weight: bold;
+}
+
+/* button on the bottom of each plan */
+.plan-button {
+	box-shadow: 0px 0px 10px rgba(1, 0, 0, 0.16);
+	border-radius: 5px;
+}
