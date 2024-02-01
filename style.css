@@ -2,10 +2,6 @@ body {
 	font-family: "Sono", sans-serif;
 }
 
-/* Hint: What can you do with a media query and flexbox? */
-@media (max-width: 1250px) {
-}
-
 /* Large div containing whole screen */
 .pricing-container {
 	height: 100vh;
@@ -51,4 +47,19 @@ body {
 	padding: 5px;
 	gap: 0.5rem;
 	list-style: none;
+}
+
+/* Smaller Screens */
+@media (max-width: 1250px) {
+	body {
+		background-color: red;
+	}
+	.pricing-container {
+		display: flex;
+		flex-direction: column;
+		gap: 2rem;
+	}
+	.pricing-plan {
+		width: 300px;
+	}
 }
